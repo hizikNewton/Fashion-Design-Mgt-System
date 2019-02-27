@@ -41,6 +41,9 @@
                       </form>
                     </div>
                   </nav>
+
+                  <div class="row">
+                      <div class ="carouselBox">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -49,11 +52,9 @@
                         </ol>
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="../assets/image/Nigerian-fashion-designers-1021x580.jpg" class="d-block w-100" alt="...">
+                            <img src="../assets/image/Nigerian-fashion-designers-1021x580.jpg" class="d-block w-100" ;
+                        " alt="...">
                           </div>
-                          <div class="carousel-item">
-                              <img src="../assets/image/clothes-design6.jpg" class="d-block w-100" alt="...">
-                            </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -64,6 +65,125 @@
                           <span class="sr-only">Next</span>
                         </a>
                       </div>
+                    </div>
+
+
+                    
+				<div class="main-login main-center">
+                    <div class="panel-heading">
+                            <div class="form-inline reg-header">
+                                <div id="regHeader" class = "form-group">
+                                    <button type="button" class="btn btn-outline-secondary">Register/Login</button>
+                                </div>
+                         </div> 
+
+                <form class="form-horizontal" method="post" action="#">
+                    <p id="signUpErrMsg">All fields are required!</p>
+                    <div class="form-group">
+                        <div class="cols-sm-10">
+                            <div class="input-group">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text" id="inputGroupPrepend"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                            </div>
+                                <input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="cols-sm-10">
+                            <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"  id="inputGroupPrepend"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                            </div>
+                                <input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    
+
+                    <div class="form-group">
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"  id="inputGroupPrepend"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+                                </div>
+                                <input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+                                </div>
+                            
+                            </div>
+                        </div>
+                
+
+                        <div class="form-group">
+                                <div class="cols-sm-10">
+                                    <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"  id="inputGroupPrepend"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                    </div>
+                                    <input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+                                    </div>
+                                
+                                </div>
+                            </div>   
+                    
+
+                            <div class="form-group">
+                                    <div class="cols-sm-10">
+                                        <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"  id="inputGroupPrepend"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                        </div>
+                                        <input type="password" class="form-control" name="password2" id="password2"  placeholder="Confirm your Password"/>
+                                        </div>
+                                    
+                                    </div>
+                                </div>   
+                        
+                    <div class="form-group ">
+                        <button type="button" id="SignUp" class="btn btn-primary btn-lg btn-block login-button">SignUp</button>
+                    </div>
+                </form>
+                
+                <form id ="loginForm" class="form-horizontal" method="post" action="#">
+                    
+                    <p id="loginErrMsg">Invalid Username/Password!</p>
+                        <div class="form-group">
+                                <div class="cols-sm-10">
+                                    <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"  id="inputGroupPrepend"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" name="username" id="loginEmail"  placeholder="Enter your Email"/>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                    
+
+                            <div class="form-group">
+                                    <div class="cols-sm-10">
+                                        <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"  id="inputGroupPrepend"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                        </div>
+                                        <input type="password" class="form-control" name="password" id="loginPassword"  placeholder="Enter your Password"/>
+                                        </div>
+                                    
+                                    </div>
+                                </div>  
+
+                    <div class="form-group ">
+                        <button type="button" id="login" class="btn btn-primary btn-lg btn-block login-button">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer font-small blue">
+        <div class="footer-copyright text-center py-3">2019 DecaStyle copyright</div>
+    </footer>
 
                     <script type="text/javascript" src="../assets/js/jquery.js"></script>
                     <script type="text/javascript" src="../assets/js/bootstrap.js"></script>
