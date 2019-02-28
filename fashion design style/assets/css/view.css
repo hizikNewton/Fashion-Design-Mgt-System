@@ -1,0 +1,27 @@
+div.card{
+    width:20px;
+}
+.card-img-top{
+    width:200px;
+    height: 200px;
+}
+div#displayBox{
+    display: none;
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+.exampleModal{
+    z-index: 2000;
+}
