@@ -1,5 +1,16 @@
 {
-  "designStyles": [],
+  "designStyles": [
+    {
+      "userId": "1",
+      "img": "..//assets//image//30707404_1244034115726931_1184795789852401396_n.jpg",
+      "id": 1
+    },
+    {
+      "userId": "1",
+      "img": "..//assets//image//looks_17_thumb.jpg",
+      "id": 2
+    }
+  ],
   "users": [
     {
       "name": "Isaac",
